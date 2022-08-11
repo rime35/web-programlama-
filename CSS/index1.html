@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+    <style>
+       input[type=text],[type=password]{
+         width:100%;
+         padding:10px;
+         border:1px solid red;
+         border-bottom:1px solid red;
+         color:blue;
+         background-color:gray;
+       }
+       input[type=text]:focus,[type=password]:focus{
+         background-color:lightblue;
+       }
+       .myClass{
+         color:red;
+         background-color:blue;
+       }
+       p.someClass{ 
+       color:white;
+       background-color:yellow;
+       }
+       #isim{
+         background-color:black;
+       }
+      </style>
+  </head>
+
+  <body>
+    adınız:<input id="isim" type="text"/>
+    email:<input type="text"/>
+    şifre:<input type="password"/>
+    <input type="submit"/>
+    <h1 class="myClass">Emirhan albayrak</h1>
+    <p class="someClass">hello world</p>
+
+  </body>
+</html>
